@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"html"
 	"time"
 )
 
@@ -25,7 +26,7 @@ func oMaisRapido(url1, url2, url3 string) string {
 	}
 }
 
-func main(){
+func main() {
 	campeao := oMaisRapido(
 		"https://.youtube.com",
 		"http://www.amazon.com",
